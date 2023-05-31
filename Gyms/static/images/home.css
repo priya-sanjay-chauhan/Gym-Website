@@ -1,0 +1,123 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-image: url('gympro.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+
+ .left {
+     display: inline-block;
+     position: absolute;
+     left: -11px;
+     top: 0px;
+ }
+
+ .left img {
+     width: 152px;
+     filter: invert(100%);
+ }
+
+ .mid {
+     display: block;
+     width: 39%;
+     margin: 21px auto;
+
+
+ }
+
+ .right {
+     position: absolute;
+     right: 24px;
+     top: 30px;
+
+     display: inline-block;
+
+ }
+
+ .navbar {
+     display: inline-block;
+     padding: 0px;
+
+ }
+
+ .navbar li {
+     display: inline-block;
+     font-size: 20px;
+
+ }
+
+ .navbar li a {
+     color: white;
+     text-decoration: none;
+     padding: 12px 30px;
+     font-family: 'Kalam', cursive;
+     font-size: 22px;
+     font-weight: 600;
+
+ }
+
+ .navbar li a:hover {
+     background-color: rgb(8, 153, 8);
+     border-radius: 6px;
+
+ }
+
+ .btn {
+    
+     margin: 0px 12px;
+     background-color: black;
+     border: 2px solid rgb(217, 254, 255);
+     color: white;
+     padding: 8px 12px;
+     border-radius: 6px;
+     font-size: 18px;
+ }
+
+
+ .btn:hover {
+     background-color: rgb(78, 78, 78);
+     border: 2px solid rgb(87, 206, 18);
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .container {
+     position: absolute;
+     border: 2px solid rgb(255, 255, 255);
+     margin: 85px 96px;
+     padding: 22px 41px;
+     right: 80px;
+     width: 33%;
+     border-radius: 6px;
+
+ }
+
+ .form-grp input {
+
+     text-align: center;
+     display: inline-block;
+     padding: 3px 90px;
+     border: 2px solid white;
+     margin: 14px auto;
+ }
+
+ .container h1 {
+     font-family: 'Kalam', cursive;
+     font-family: 'Oleo Script', cursive;
+     font-size: 40px;
+     text-align: center;
+     color: rgb(255, 230, 89);
+ }
+
+ .container button {
+
+     display: block;
+     width: 36%;
+     margin: 36px auto;
+
+
+ }
+ 
+
